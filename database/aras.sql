@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 04, 2021 at 11:11 AM
+-- Generation Time: Mar 02, 2021 at 12:38 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -91,17 +91,17 @@ INSERT INTO `tb_penilaian` (`id`, `id_guru`, `id_kriteria`, `nilai`) VALUES
 (2, 1, 2, 8),
 (3, 1, 3, 3),
 (4, 1, 4, 1),
-(5, 1, 5, 92),
 (6, 2, 1, 80),
 (7, 2, 2, 9),
 (8, 2, 3, 2),
 (9, 2, 4, 5),
-(10, 2, 5, 85),
 (11, 3, 1, 79),
 (12, 3, 2, 5),
 (13, 3, 3, 2),
 (14, 3, 4, 3),
-(18, 3, 5, 85);
+(18, 3, 5, 85),
+(19, 2, 5, 85),
+(37, 1, 5, 92);
 
 -- --------------------------------------------------------
 
@@ -159,7 +159,7 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT for table `tb_guru`
 --
 ALTER TABLE `tb_guru`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `tb_kriteria`
@@ -171,7 +171,7 @@ ALTER TABLE `tb_kriteria`
 -- AUTO_INCREMENT for table `tb_penilaian`
 --
 ALTER TABLE `tb_penilaian`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT for table `tb_user`
